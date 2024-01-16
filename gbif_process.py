@@ -22,11 +22,11 @@ range=100
 # %%
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-q", "--query", default=query_coord) #directory of arabidopsis accession and coordinate
-parser.add_argument("-t", "--target", required=True) #txt file containing (gbif output dir, species name)
-parser.add_argument("-o", "--outdir", default=output_dir) #output file name
-parser.add_argument("-r", "--range", default=100) # range to include gbif data
-parser.add_argument('-i', "--intensity", default=True)
+parser.add_argument("-q", "--query", default=query_coord, help='directory of arabidopsis accession and coordinate')
+parser.add_argument("-t", "--target", required=True, help='txt file containing (gbif output dir, species name)')
+parser.add_argument("-o", "--outdir", default=output_dir, help='output directory') 
+parser.add_argument("-r", "--range", default=100, help='range to include gbif data in km scale') 
+parser.add_argument('-i', "--intensity", default=True, help='calculate herbivore density; if False, herbivore occurence is shown 0 or 1')
 args = parser.parse_args()
 
 
@@ -73,5 +73,3 @@ def GetHerbivory(plant_dir, target_list, outdir, range, intensity):
 GetHerbivory(plant_dir=args.query, target_list=args.target, outdir=args.outdir, range=args.range, intensity=args.intensity)
 
 
-
-# %%
