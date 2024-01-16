@@ -1,0 +1,1 @@
+/home/minsoo/240108_GBIF_GWAS/raw_data/M_persicae_20240108.csv,Mper_100

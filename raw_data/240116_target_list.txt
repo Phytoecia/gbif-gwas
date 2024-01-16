@@ -1,0 +1,7 @@
+/home/minsoo/240108_GBIF_GWAS/raw_data/M_persicae_20240108.csv,Mper_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/S_exigua_20240108.csv,Sexi_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/P_xylostella_20240108.csv,Pxyl_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/L_erysimi_20240108.csv,Lery_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/P_striolata_20240108.csv,Pstr_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/B_brassicae_20240108.csv,Bbra_100
+/home/minsoo/240108_GBIF_GWAS/raw_data/C_atomus_20240116.csv,Cato_100
