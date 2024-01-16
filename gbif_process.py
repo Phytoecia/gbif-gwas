@@ -12,7 +12,7 @@ import argparse
 
 # %%
 #default setting
-query_coord='/home/minsoo/240108_GBIF_GWAS/raw_data/1001genome_coord.csv'
+query_coord='./raw_data/1001genome_coord.csv'
 # target_dir='/home/minsoo/240108_GBIF_GWAS/raw_data/target_list.txt'
 output_dir='./gbif_output.pheno'
 intensity=True
@@ -73,3 +73,5 @@ def GetHerbivory(plant_dir, target_list, outdir, range, intensity):
 GetHerbivory(plant_dir=args.query, target_list=args.target, outdir=args.outdir, range=args.range, intensity=args.intensity)
 
 
+
+# %%
