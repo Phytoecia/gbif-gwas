@@ -25,7 +25,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-q", "--query", default=query_coord, help='directory of arabidopsis accession and coordinate')
 parser.add_argument("-t", "--target", required=True, help='txt file containing (gbif output dir, species name)')
 parser.add_argument("-o", "--outdir", default=output_dir, help='output directory') 
-parser.add_argument("-r", "--range", default=100, help='range to include gbif data in km scale') 
+parser.add_argument("-r", "--range", default=100, type=float, help='range to include gbif data in km scale') 
 parser.add_argument('-i', "--intensity", default=True, help='calculate herbivore density; if False, herbivore occurence is shown 0 or 1')
 args = parser.parse_args()
 
